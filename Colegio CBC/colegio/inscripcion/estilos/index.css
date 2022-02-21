@@ -1,0 +1,263 @@
+@charset "utf-8";
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body
+{
+
+	font-family: montserrat;
+
+}
+
+nav
+{
+
+	background: #FFCE00;
+	height: 80px;
+	width: 100%;
+}
+
+#logotipo
+{
+   margin-left: 10px;
+   margin-top: 20px;
+
+}
+
+label.logo
+{
+	color: #20A2A2;
+	font-size: 30px;
+	line-height: 80px;
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+
+nav ul
+{
+	float: right;
+	margin-right:  20px;
+
+}
+
+nav ul li
+{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a
+{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+a.active,a:hover
+{
+	background: #1b9bff;
+	transition: .5s;
+}
+
+/*
+a:hover
+{
+	border-width: 1px;
+    border-style: solid;
+	border-color: red;
+}
+*/
+
+.checkbtn
+{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check
+{
+	display: none;
+
+}
+
+
+@media (max-width: 952px){
+
+	label.logo{
+	
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	nav ul li a{
+	
+		font-size: 16px;
+	}
+
+
+}
+
+
+@media (max-width: 858px){
+
+	.checkbtn{
+	
+		display: block;
+	}
+	
+	ul
+	{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+
+	nav ul li
+	{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+
+	nav ul li a
+	{
+		font-size: 20px;
+	}
+
+	a:hover,a.active
+	{
+		background: none;
+		color: #0082e6;
+
+	}
+
+	#check:checked ~ ul
+	{
+		left: 0;
+	}
+
+}
+
+
+
+
+
+
+#pieweb
+{
+	margin-top: 50px;
+	text-align: center;
+	background: #FFCE00;
+	
+}
+
+
+
+
+
+.forma
+{
+	width: 60%;
+
+	background: #24303c;
+	padding: 30px;
+	margin:auto;
+	margin-top:30px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+
+}
+
+.forma h4
+{
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.forma h5
+{
+	color:#BAB9B8;
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 5px;
+	
+}
+
+h1
+{
+	font:normal 20px Verdana , Geneva, sans-serif;
+	text-align: center;
+	
+	margin-top: 5px;
+}
+
+.controls
+{
+	width: 33%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+	color:white;
+}
+
+.forma .botones
+{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+#dd
+{
+	width: 20%;
+}
+
+#mm
+{
+	width: 42%;
+}
+
+#aa
+{
+	width: 35%;
+}
+
+#ref
+{
+   	width: 90%; 
+}
+
+

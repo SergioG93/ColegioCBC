@@ -1,0 +1,312 @@
+* Custom Properties *
+
+:root {
+     --primario: #15b8b8;
+     --secundario: #0ab67d;
+     --primarioOscuro : rgb(10, 90, 156);
+     --fuentePrimaria : 'Arial', Helvetica, sans-serif;
+     --fuenteSecundaria : 'Poppins', sans-serif;
+}
+
+html {
+     box-sizing: border-box;
+}
+*, *:before, *:after {
+     box-sizing: inherit;
+}
+.container {
+     max-width: 1024px;
+     padding-bottom: 10px;
+ }
+
+.lh-condensed { 
+        line-height: 1.25; 
+}
+   
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+nav ul,
+nav li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+display: block;
+}
+ol,ul {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+blockquote,
+q {
+quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+     html,
+     body {
+     padding: 0;
+     margin: 0;
+     background: #fff;
+     font-family: 'Barlow', sans-serif;
+     }
+     body a {
+     transition: 0.5s all;
+     -webkit-transition: 0.5s all;
+     -moz-transition: 0.5s all;
+     -o-transition: 0.5s all;
+     -ms-transition: 0.5s all;
+     text-decoration: none;
+     }
+     body a:hover {
+     text-decoration: none;
+     }
+     body a:focus,
+     a:hover {
+     text-decoration: none;
+     }
+     
+     h1,
+     h2,
+     h3,
+     h4,
+     h5,
+     h6 {
+     margin: 0;
+     padding: 0;
+     font-family: 'Barlow', sans-serif;
+     letter-spacing: 1px;
+     }
+     p {
+     margin: 0;
+     padding: 0;
+     letter-spacing: 1px;
+     color: #1a7d89;
+     font-family: 'Barlow', sans-serif;
+     }
+     p.lead{
+          color:#ffffff;
+     }
+     ul {
+     margin: 0;
+     padding: 0;
+     }
+
+
+body {
+     background-color: var(--primario);
+     font-family: var(--fuentePrimaria);
+}
+
+.bg-blanco {
+     background-color: #ffffff;
+}
+.barra {
+     display: grid;
+     grid-template-columns: 100px 1fr;
+     align-items: center;
+}
+/** Botones **/
+.btn {
+     font-size: 2rem;
+     text-decoration: none;
+}
+.btn:hover {
+     cursor: pointer;
+}
+
+h1, h2 {
+     
+     text-align: center;
+     margin: 0;
+}
+h1 {
+     padding: 10px;
+     font-size: 20px;
+     color: #ffffff;
+} 
+h2 {
+     font-size: 2rem;
+     color: var(--primario);
+}
+
+
+/** Formulario **/
+
+/*-- //Reset-Code --*/
+body {
+     /* background:url(../img/logos/cbc.jpg); */
+     background-color:rgb(36,45,76);
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+min-height: 100vh;
+
+}
+
+
+#logotipo{
+          margin-top: 10px;
+          max-height: 150px;
+}
+
+
+     ::-webkit-input-placeholder {
+          /* Chrome/Opera/Safari */
+          color: rgba(63, 63, 70, 0.712);
+          }
+     
+     ::-moz-placeholder {
+               /* Firefox 19+ */
+               color: rgb(2, 15, 58);
+               }
+          
+     :-ms-input-placeholder {
+          /* IE 10+ */
+          color: #000;
+          }
+          :-moz-placeholder {
+          /* Firefox 18- */
+          color: #000;
+          }
+
+.row{
+     background-color:#919495;
+     border-radius: 10px;
+     padding: 10px;
+}
+
+
+          input[type="submit"] {
+               text-transform: uppercase;
+               background: rgb(235, 132, 48);
+               color: #ffffff;
+               padding: .9em 0em;
+               border: none;
+               font-size: 1em;
+               outline: none;
+               width: 23%;
+               letter-spacing: 1px;
+               font-weight: 600;
+               margin-top: 1em;
+               cursor: pointer;
+               transition: 0.5s all;
+               -webkit-transition: 0.5s all;
+               -moz-transition: 0.5s all;
+               -o-transition: 0.5s all;
+               -ms-transition: 0.5s all;
+               border-radius: 5px;
+               }
+               input[type="submit"]:hover {
+               color:#000;
+               background:#fff;
+               }
+
